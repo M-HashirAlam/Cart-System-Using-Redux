@@ -1,0 +1,42 @@
+/* Navbar container */
+.navbar-container {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo styling */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px; /* Add spacing between links */
+    transition: color 0.2s; /* Smooth color transition on hover */
+  }
+  
+  .nav-link:hover {
+    color: #ff6347; /* Change text color on hover */
+  }
+  
+  /* Cart item count */
+  .cart-item-count {
+    background-color: #ff6347; /* Background color for the cart item count */
+    color: #fff;
+    padding: 5px 10px; /* Add padding to make it visually appealing */
+    border-radius: 50%; /* Make it circular */
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

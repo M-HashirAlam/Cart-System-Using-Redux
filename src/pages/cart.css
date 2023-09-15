@@ -1,0 +1,58 @@
+/* Cart container */
+.cart-container {
+    background-color: #f5f5f5; /* Background color for the entire cart container */
+    padding: 20px;
+    border: 1px solid #ddd; /* Border to separate cart items */
+    border-radius: 5px; /* Rounded corners for the cart container */
+  }
+  
+  /* Cart title */
+  .cart-title {
+    font-size: 34px; /* Title font size */
+    margin-bottom: 20px; /* Margin at the bottom of the title */
+    text-align: center;
+    text-decoration: underline;
+     
+  }
+  
+  /* Cart item */
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Margin at the bottom of each cart item */
+  }
+  
+  .cart-item img {
+    max-width: 100px; /* Limit the width of the product image */
+    height: auto; /* Maintain image aspect ratio */
+    margin-right: 20px; /* Margin between image and item details */
+  }
+  
+  .cart-item-details {
+    flex-grow: 1; /* Allow the item details to grow and take available space */
+  }
+  
+  .cart-item-title {
+    font-size: 18px; /* Item title font size */
+    margin-bottom: 10px; /* Margin at the bottom of the item title */
+  }
+  
+  .cart-item-price {
+    font-size: 16px; /* Item price font size */
+    color: #ff6347; /* Price text color */
+  }
+  
+  .cart-item-remove-button {
+    background-color: #ff6347; /* Remove button background color */
+    color: #fff; /* Remove button text color */
+    border: none; /* Remove button border */
+    padding: 5px 10px; /* Remove button padding */
+    font-size: 14px; /* Remove button font size */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.2s; /* Smooth background color transition on hover */
+  }
+  
+  .cart-item-remove-button:hover {
+    background-color: #e34a36; /* Change background color on hover */
+  }
+  
